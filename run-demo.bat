@@ -6,7 +6,7 @@ GOTO skipdef
 :defkeysecret
 
 SET API_KEY=45754972
-SET API_SECRET=
+SET API_SECRET=2d03fec4df058a6a8e4c7f13c781477bdff96a14
 
 :skipdef
 
