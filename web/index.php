@@ -17,6 +17,9 @@ use OpenTok\OpenTok;
 use OpenTok\Role;
 use OpenTok\MediaMode;
 
+putenv("API_KEY=45754972");
+putenv("API_SECRET=2d03fec4df058a6a8e4c7f13c781477bdff96a14");
+
 // PHP CLI webserver compatibility, serving static files
 $filename = __DIR__.preg_replace('#(\?.*)$#', '', $_SERVER['REQUEST_URI']);
 if (php_sapi_name() === 'cli-server' && is_file($filename)) {
